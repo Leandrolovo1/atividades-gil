@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
 </head>
+
 <body>
-     
-     <table border="0">
+    <hr>
+    <table border="0">
         <tr>   
             <td> <img src="https://cdn.iconscout.com/icon/free/png-256/free-pessoa-1767893-1502146.png?f=webp" alt=""></td> 
             <td>
@@ -56,7 +58,57 @@
         </ul>
         
     </ol>
+    <hr>
+    <h1>FORMULÁRIO DE CONTATO </h1>
+    <table>
+        <tr>
+            <form action="http://localhost:3000/alunos" method="POST">
+        <tr>
+            <td>
+                <label><b>Assunto:</b></label>
+            </td>
+            <td>
+                <div class="linha">
+                    <input type="radio" name="contato" value="Dúvidas">Dúvidas
+                    <input type="radio" name="contato" value="Mais informações">Mais informações
+                    <input type="radio" name="contato" value="Contratação">Contratação
+                </div>
+            </td>
+            <tr>
+                <td>
+    
+                    <label><b>Nome:</b></label>
+    
+                </td>
+                <td>
+                    <input type="text" name="nome" />
+                </td>
 
+            </tr>
+        </tr>
+        <tr>
+            <td>
 
+                <label><b>Contato:</b></label>
+            </td>
+            <td>
+                <input type="text" name="Contato" />
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <table>
+            <hr>
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar" />
+                </form>
+                </td>
+            </tr>
+        </table>
+        </tr>
+    </table>
 </body>
 </html>
