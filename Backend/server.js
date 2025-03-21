@@ -18,6 +18,19 @@ app.get('/Portal', (req, res) => {
     const filePath = path.join(__dirname, 'PortalNoticias/portal.html');
     res.sendFile(filePath);
 });
+app.get('/economiaNoticias.html', (req, res) => {
+    const filePath = path.join(__dirname, 'PortalNoticias/economiaNoticias.html');
+    res.sendFile(filePath);
+});
+app.get('/esporteNoticias.html', (req, res) => {
+    const filePath = path.join(__dirname, 'PortalNoticias/esporteNoticias.html');
+    res.sendFile(filePath);
+});
+app.get('/entretenimentoNoticias.html', (req, res) => {
+    const filePath = path.join(__dirname, 'PortalNoticias/entretenimentoNoticias.html');
+    res.sendFile(filePath);
+});
+
 
 
 
