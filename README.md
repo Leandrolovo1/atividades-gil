@@ -1,2 +1,2 @@
 # atividades-gil
-é isso ai
+atividades realizadas em desenvolvimento web
